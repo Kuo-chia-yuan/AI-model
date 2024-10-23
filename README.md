@@ -1,4 +1,17 @@
 # AI-model
+## activation & loss function
+![image](https://github.com/user-attachments/assets/f2ff5b95-0b62-4ff4-895f-cfd0ef78615a)
+
+## Linear regression
+![image](https://github.com/user-attachments/assets/cfbb62fa-a469-4411-bc4a-3b198d229649)
+* 線性關係：y = w * x + b
+* 雖然簡陋，但可避免過擬合
+
+## RNN & LSTM
+![image](https://github.com/user-attachments/assets/48621381-3b0c-41c2-80d3-a8a4bc9ac83a)
+
+![image](https://github.com/user-attachments/assets/ab7c8304-3110-47b6-9368-fa709aae5f60)
+
 ## GAN
 ![image](https://github.com/user-attachments/assets/a9ced60c-32cf-466c-a771-68d256854ca4)
 
