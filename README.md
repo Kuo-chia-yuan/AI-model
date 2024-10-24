@@ -1,4 +1,4 @@
-## AI-model
+## AI model
 ![image](https://github.com/user-attachments/assets/4d801138-8313-40cb-ba1f-76a34533cb38)
 
 ## 利用 loss, lr 更新參數
