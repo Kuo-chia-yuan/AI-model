@@ -7,11 +7,16 @@
 * 線性關係：y = w * x + b
 * 雖然簡陋，但可避免過擬合
 
-## RNN & LSTM
+## RNN & BRNN & LSTM
 ![image](https://github.com/user-attachments/assets/48621381-3b0c-41c2-80d3-a8a4bc9ac83a)
 
-![image](https://github.com/user-attachments/assets/ab7c8304-3110-47b6-9368-fa709aae5f60)
+![image](https://github.com/user-attachments/assets/4f734782-d2c3-4b58-bb26-b3ee49667b81)
 
+### LSTM + language model
+![image](https://github.com/user-attachments/assets/9e7e1d9f-e549-4176-89fc-529570312d11)
+
+## ResNet
+![image](https://github.com/user-attachments/assets/12c68d44-9d10-4a35-aa6f-ff8b3cf6ee47)
 
 ## GAN
 ![image](https://github.com/user-attachments/assets/a9ced60c-32cf-466c-a771-68d256854ca4)
@@ -19,12 +24,9 @@
 ![image](https://github.com/user-attachments/assets/c9f03e72-6869-4eb3-bf48-2b8d10f9b3d3)
 
 ## Neural Style Transfer - VGG19
-![image](https://github.com/user-attachments/assets/0f7f7a00-3a9f-4fdb-b920-0c8368eb5f5e)
-
-![image](https://github.com/user-attachments/assets/2223f274-6067-4a8c-80fd-2e3ac10132fb)
-
 ![image](https://github.com/user-attachments/assets/88e4c9b6-fc28-4fe3-b890-4d4d76371077)
 
+![image](https://github.com/user-attachments/assets/0f7f7a00-3a9f-4fdb-b920-0c8368eb5f5e)
 
 ![image](https://github.com/user-attachments/assets/4928906b-3f56-4c79-a90a-3057c0b2ffb9)
 
