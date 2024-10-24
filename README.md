@@ -60,8 +60,8 @@
 
 ![image](https://github.com/user-attachments/assets/faba85e3-a770-40f9-b068-3f643b51007e)
 
-* m = fc2 求出的均值
-* σ = fc3 求出的標準差
-* e = 0 到 1 之間的高斯分布
+* m: 由 fc2 求出的均值
+* σ: 由 fc3 求出的標準差
+* e: 0 到 1 之間的高斯分布
 * loss_1: output 與 input 的差異
 * loss_2: output 與高斯分布的差異 (為了滿足生成的多樣性)
