@@ -1,4 +1,4 @@
-# AI-model
+![image](https://github.com/user-attachments/assets/91b47f15-6f6c-4c46-becd-b686922b01de)# AI-model
 ## 利用 loss, lr 更新參數
 ![image](https://github.com/user-attachments/assets/2453fcfb-82c7-42c3-ba9c-ba5214c97166)
 
@@ -23,6 +23,9 @@
 * Embedding：建立詞彙表，將 ID 各別轉換成 Embedding 向量，如 ID 5 -> 向量 [0.2, 0.1, 0.3, 0.7]
 * LSTM：學習句子中的上下文關係
 * Linear：輸出下一個詞的概率分佈，如，輸出 [0.1, 0.2, 0.05, 0.65] 表示對應的四個詞的概率，最大概率的詞是模型的預測詞
+
+### CNN (encoder) + LSTM (decoder)
+![image](https://github.com/user-attachments/assets/d40aacb3-cc03-4d14-8dc3-967d2071c163)
 
 ## ResNet
 ![image](https://github.com/user-attachments/assets/12c68d44-9d10-4a35-aa6f-ff8b3cf6ee47)
