@@ -63,4 +63,5 @@
 * m = fc2 求出的均值
 * σ = fc3 求出的標準差
 * e = 0 到 1 之間的高斯分布
-* Auto-encoder 與 VAE 皆為非監督式學習，不用標記 label，只需和 input 比較並計算 loss
+* loss_1: output 與 input 的差異
+* loss_2: output 與高斯分布的差異 (為了滿足生成的多樣性)
