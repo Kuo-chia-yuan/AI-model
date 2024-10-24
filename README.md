@@ -14,6 +14,12 @@
 
 ### LSTM + language model
 ![image](https://github.com/user-attachments/assets/9e7e1d9f-e549-4176-89fc-529570312d11)
+* Dictionary：建立詞與 ID 之間的映射，如 "我" -> 5、"帥" -> 10
+* Corpus (語料庫)：將句子轉換成 ID 序列，如 "我 好 帥" 會被轉換成 [5, 2, 10]
+* --------- 前向傳播 ---------
+* Embedding：建立詞彙表，將 ID 各別轉換成 Embedding 向量，如 ID 5 -> 向量 [0.2, 0.1, 0.3, 0.7]
+* LSTM：學習句子中的上下文關係
+* Linear：輸出下一個詞的概率分佈，如，輸出 [0.1, 0.2, 0.05, 0.65] 表示對應的四個詞的概率，最大概率的詞是模型的預測詞
 
 ## ResNet
 ![image](https://github.com/user-attachments/assets/12c68d44-9d10-4a35-aa6f-ff8b3cf6ee47)
