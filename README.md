@@ -1,9 +1,12 @@
-![image](https://github.com/user-attachments/assets/91b47f15-6f6c-4c46-becd-b686922b01de)# AI-model
+# AI-model
 ## 利用 loss, lr 更新參數
 ![image](https://github.com/user-attachments/assets/2453fcfb-82c7-42c3-ba9c-ba5214c97166)
 
 ## activation & loss function
 ![image](https://github.com/user-attachments/assets/f2ff5b95-0b62-4ff4-895f-cfd0ef78615a)
+
+## batch size
+![image](https://github.com/user-attachments/assets/ded44e1a-a92a-450f-b30f-ab09d8742ecf)
 
 ## Linear regression
 ![image](https://github.com/user-attachments/assets/cfbb62fa-a469-4411-bc4a-3b198d229649)
@@ -17,6 +20,9 @@
 
 ### LSTM + language model
 ![image](https://github.com/user-attachments/assets/9e7e1d9f-e549-4176-89fc-529570312d11)
+
+![image](https://github.com/user-attachments/assets/f02a2409-aad4-478b-ace8-2adef02d05ea)
+
 * Dictionary：建立詞與 ID 之間的映射，如 "我" -> 5、"帥" -> 10
 * Corpus (語料庫)：將句子轉換成 ID 序列，如 "我 好 帥" 會被轉換成 [5, 2, 10]
 * --------- 前向傳播 ---------
