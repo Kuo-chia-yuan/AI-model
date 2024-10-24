@@ -69,6 +69,12 @@
 ## U-Net
 ![image](https://github.com/user-attachments/assets/41625379-8369-4620-b4c0-a38869747720)
 
+## Seq2Seq
+![image](https://github.com/user-attachments/assets/6383b2fd-db18-4e5d-a30d-f91337765edc)
+
+![image](https://github.com/user-attachments/assets/2006762b-e0ae-431d-8d25-8ee7a19d9496)
+* Seq2Seq 加入 Attention 後，Decoder input 的 Query 會與每個 Encoder output 的 key 相乘並加權求和後，輸出 output，類似 Transformer 的 Cross Attention
+
 ## Transformer
 ![image](https://github.com/user-attachments/assets/91aa5f29-4ffa-435e-9e59-6ac08504634c)
 
