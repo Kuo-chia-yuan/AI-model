@@ -65,3 +65,13 @@
 * e: 0 到 1 之間的高斯分布
 * loss_1: output 與 input 的差異
 * loss_2: output 與高斯分布的差異 (為了滿足生成的多樣性)
+
+## U-Net
+![image](https://github.com/user-attachments/assets/41625379-8369-4620-b4c0-a38869747720)
+
+## Transformer
+![image](https://github.com/user-attachments/assets/91aa5f29-4ffa-435e-9e59-6ac08504634c)
+
+![image](https://github.com/user-attachments/assets/89d4e7c5-0f4e-4c62-aaae-a48b44441bde)
+
+![image](https://github.com/user-attachments/assets/ac0ff115-7f53-469e-b16c-40bc225b8c41)
