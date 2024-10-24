@@ -18,7 +18,7 @@
 
 ![image](https://github.com/user-attachments/assets/4f734782-d2c3-4b58-bb26-b3ee49667b81)
 
-### LSTM + language model
+### Image_Captioning: LSTM + language model
 ![image](https://github.com/user-attachments/assets/9e7e1d9f-e549-4176-89fc-529570312d11)
 
 ![image](https://github.com/user-attachments/assets/f02a2409-aad4-478b-ace8-2adef02d05ea)
