@@ -1,4 +1,7 @@
 # AI-model
+## 利用 loss, lr 更新參數
+![image](https://github.com/user-attachments/assets/2453fcfb-82c7-42c3-ba9c-ba5214c97166)
+
 ## activation & loss function
 ![image](https://github.com/user-attachments/assets/f2ff5b95-0b62-4ff4-895f-cfd0ef78615a)
 
