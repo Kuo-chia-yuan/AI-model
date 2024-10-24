@@ -12,6 +12,7 @@
 
 ![image](https://github.com/user-attachments/assets/ab7c8304-3110-47b6-9368-fa709aae5f60)
 
+
 ## GAN
 ![image](https://github.com/user-attachments/assets/a9ced60c-32cf-466c-a771-68d256854ca4)
 
@@ -19,6 +20,8 @@
 
 ## Neural Style Transfer - VGG19
 ![image](https://github.com/user-attachments/assets/0f7f7a00-3a9f-4fdb-b920-0c8368eb5f5e)
+
+![image](https://github.com/user-attachments/assets/2223f274-6067-4a8c-80fd-2e3ac10132fb)
 
 ![image](https://github.com/user-attachments/assets/88e4c9b6-fc28-4fe3-b890-4d4d76371077)
 
