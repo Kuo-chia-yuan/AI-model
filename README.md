@@ -52,3 +52,13 @@
 ![image](https://github.com/user-attachments/assets/086fa6e4-2552-45b5-a070-80570c036122)
 
 ![image](https://github.com/user-attachments/assets/5d54c475-27fa-4ff2-bceb-483cfe91d113)
+
+## VAE
+![image](https://github.com/user-attachments/assets/7801a9dc-1853-4df1-b482-10c9dd5b6251)
+
+![image](https://github.com/user-attachments/assets/faba85e3-a770-40f9-b068-3f643b51007e)
+
+* m = fc2 求出的均值
+* σ = fc3 求出的標準差
+* e = 0 到 1 之間的高斯分布
+* Auto-encoder 與 VAE 皆為非監督式學習，不用標記 label，只需和 input 比較並計算 loss
