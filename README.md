@@ -82,10 +82,19 @@
 
 ![image](https://github.com/user-attachments/assets/ac0ff115-7f53-469e-b16c-40bc225b8c41)
 
+![image](https://github.com/user-attachments/assets/2d0ab570-46e5-4640-9300-c7b101e00bbb)
+
 ![image](https://github.com/user-attachments/assets/b7cdab04-9c44-48f4-9a33-99c1d8e0d20d)
 
-## BERT
+### BERT
 ![image](https://github.com/user-attachments/assets/80734c3a-9c66-4e2f-92ea-3d242b9df4c8)
+
+![image](https://github.com/user-attachments/assets/53c6a80b-bcaf-409a-889d-3568dff4a00e)
 
 * loss_1: Masked Language Model (MLM), 隨機選擇一些詞語（token）進行「遮蔽」（mask），為分類問題，每個被遮蔽的 token 都需要從詞彙表（vocabulary）中預測出正確的詞
 * loss_2: Next Sentence Prediction (NSP), 給模型一對句子（A 和 B），預測 B 是否是 A 的正確後續句
+
+### GPT
+![image](https://github.com/user-attachments/assets/414ef9f9-1bbd-4581-9cab-aad051e770fa)
+
+![image](https://github.com/user-attachments/assets/4d83d095-b69d-4286-b5cb-48db1bc33daa)
