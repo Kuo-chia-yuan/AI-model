@@ -73,7 +73,7 @@
 ![image](https://github.com/user-attachments/assets/6383b2fd-db18-4e5d-a30d-f91337765edc)
 
 ![image](https://github.com/user-attachments/assets/2006762b-e0ae-431d-8d25-8ee7a19d9496)
-* Seq2Seq 加入 Attention 後，Decoder input 的 Query 向量會與每個 Encoder output 的 key 向量相乘並加權求和後，輸出 output，類似 Transformer 的 Cross Attention
+* Seq2Seq 加入 Attention 後，Decoder input 的 Query 向量會與每個 Encoder output 的 key 和 value 向量相乘並加權求和後，輸出 output，類似 Transformer 的 Cross Attention
 
 ## Transformer
 ![image](https://github.com/user-attachments/assets/91aa5f29-4ffa-435e-9e59-6ac08504634c)
@@ -84,3 +84,8 @@
 
 ![image](https://github.com/user-attachments/assets/b7cdab04-9c44-48f4-9a33-99c1d8e0d20d)
 
+## BERT
+![image](https://github.com/user-attachments/assets/80734c3a-9c66-4e2f-92ea-3d242b9df4c8)
+
+* loss_1: Masked Language Model (MLM), 隨機選擇一些詞語（token）進行「遮蔽」（mask），為分類問題，每個被遮蔽的 token 都需要從詞彙表（vocabulary）中預測出正確的詞
+* loss_2: Next Sentence Prediction (NSP), 給模型一對句子（A 和 B），預測 B 是否是 A 的正確後續句
