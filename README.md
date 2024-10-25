@@ -85,6 +85,7 @@
 ![image](https://github.com/user-attachments/assets/2d0ab570-46e5-4640-9300-c7b101e00bbb)
 
 ![image](https://github.com/user-attachments/assets/b7cdab04-9c44-48f4-9a33-99c1d8e0d20d)
+* 近期 Seq2Seq 已用 Transformer 取代 LSTM 
 
 ### BERT
 ![image](https://github.com/user-attachments/assets/80734c3a-9c66-4e2f-92ea-3d242b9df4c8)
