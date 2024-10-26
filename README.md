@@ -13,6 +13,9 @@
 ## Fine-tune
 ![image](https://github.com/user-attachments/assets/3fb6649e-364c-4218-b216-062a2712687e)
 
+## 自動化 Trainer VS 手刻迴圈訓練
+![image](https://github.com/user-attachments/assets/ea2a81f5-c86b-4e87-a13c-6d4e5e436b05)
+
 ## Linear regression
 ![image](https://github.com/user-attachments/assets/cfbb62fa-a469-4411-bc4a-3b198d229649)
 * 線性關係：y = w * x + b
