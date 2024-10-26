@@ -10,6 +10,9 @@
 ## batch size
 ![image](https://github.com/user-attachments/assets/ded44e1a-a92a-450f-b30f-ab09d8742ecf)
 
+## Fine-tune
+![image](https://github.com/user-attachments/assets/3fb6649e-364c-4218-b216-062a2712687e)
+
 ## Linear regression
 ![image](https://github.com/user-attachments/assets/cfbb62fa-a469-4411-bc4a-3b198d229649)
 * 線性關係：y = w * x + b
