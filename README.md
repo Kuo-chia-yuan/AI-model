@@ -61,6 +61,10 @@
 
 ![image](https://github.com/user-attachments/assets/5d54c475-27fa-4ff2-bceb-483cfe91d113)
 
+* VGG19：input 是 content image、style image、noise image / loss 是 noise image 與 content image、style image 的差異
+* StyleGAN：input 是 noise image / loss 是 G_loss 和 D_loss
+* CycleGAN：input 是 content image、style image / loss 是 G_content_loss (style to content)、G_style_loss (content to style)、D_content_loss、D_style_loss、style_to_content_to_style、content_to_style_to_content
+
 ## VAE
 ![image](https://github.com/user-attachments/assets/7801a9dc-1853-4df1-b482-10c9dd5b6251)
 
