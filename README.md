@@ -44,6 +44,13 @@
 ### CNN (encoder) + LSTM (decoder)
 ![image](https://github.com/user-attachments/assets/d40aacb3-cc03-4d14-8dc3-967d2071c163)
 
+## YOLO
+![image](https://github.com/user-attachments/assets/5c8b194e-2407-4b38-8647-08a04d01c5ed)
+
+![image](https://github.com/user-attachments/assets/67eb5a43-21ce-48d2-b6af-7c1328e64d84)
+
+![image](https://github.com/user-attachments/assets/4fe2bddc-d772-4554-80e3-213fe9c0faf5)
+
 ## ResNet
 ![image](https://github.com/user-attachments/assets/12c68d44-9d10-4a35-aa6f-ff8b3cf6ee47)
 
