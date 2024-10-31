@@ -23,6 +23,9 @@
 
 ## RNN & BRNN & LSTM
 ![image](https://github.com/user-attachments/assets/48621381-3b0c-41c2-80d3-a8a4bc9ac83a)
+* X_t：input
+* h_t：output
+* C_t：長期記憶
 
 ![image](https://github.com/user-attachments/assets/4f734782-d2c3-4b58-bb26-b3ee49667b81)
 
