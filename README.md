@@ -44,7 +44,10 @@
 ### CNN (encoder) + LSTM (decoder)
 ![image](https://github.com/user-attachments/assets/d40aacb3-cc03-4d14-8dc3-967d2071c163)
 
-## YOLO
+## Denoise - DnCNN
+![image](https://github.com/user-attachments/assets/e5b6ee92-9f6f-440d-ae53-dfcf5ba6274d)
+
+## Object Detection - YOLO
 ![image](https://github.com/user-attachments/assets/5c8b194e-2407-4b38-8647-08a04d01c5ed)
 
 ![image](https://github.com/user-attachments/assets/67eb5a43-21ce-48d2-b6af-7c1328e64d84)
@@ -78,7 +81,7 @@
 * StyleGAN：input 是 noise image / loss 是 G_loss 和 D_loss
 * CycleGAN：input 是 real image、fake image / loss 是 G_real_loss、G_fake_loss、D_real_loss、D_fake_loss、real_to_fake_to_real、fale_to_real_to_fake
 
-## VAE
+## VAE (Variational Autoencoder)
 ![image](https://github.com/user-attachments/assets/7801a9dc-1853-4df1-b482-10c9dd5b6251)
 
 ![image](https://github.com/user-attachments/assets/faba85e3-a770-40f9-b068-3f643b51007e)
@@ -89,7 +92,7 @@
 * loss_1: output 與 input 的差異
 * loss_2: output 與高斯分布的差異 (為了滿足生成的多樣性)
 
-## U-Net
+## Segmentation - UNet
 ![image](https://github.com/user-attachments/assets/41625379-8369-4620-b4c0-a38869747720)
 
 ## Seq2Seq
