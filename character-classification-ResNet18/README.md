@@ -14,11 +14,11 @@
 
 ## architecture
 ![alt text](architecture.png)
-- 殘差塊：(CNN + Batch Normalization + ReLU) + (CNN + Batch Normalization)
+- 殘差塊 (residual block)：(CNN + Batch Normalization + ReLU) + (CNN + Batch Normalization)
 
 ## loss
 - Cross-Entropy Loss：適合分類任務  
 ![alt text](loss.png)
 
 ## key
-- 殘差 (Shortcut Connection) = x + f(x-1)
+- 殘差 (residual) = x + f(x-1)
