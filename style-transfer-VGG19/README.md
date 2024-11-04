@@ -12,7 +12,7 @@
     - 5 個 CNN block：3 x 3 CNN kernel + 2 x 2 Max Pooling
 
 - 3 層 FC + softmax
-    - 用於分類，而 style transfer 捨棄 FC
+    - 用於分類，而 style transfer 不需分類，所以捨棄 FC
 
 ![alt text](architecture.png)
 
