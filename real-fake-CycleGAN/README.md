@@ -22,7 +22,7 @@
 2. Cycle Consistency Loss
     - A：L1(G_B2A(G_A2B(真實 A)), 真實 A)
     - B：L1(G_A2B(G_B2A(真實 B)), 真實 B)  
-    ![alt text](L1_loss.png)
+    ![alt text](L1_Loss.png)
 
 3. Identity Loss
     - A：L1(G_A2B(真實 B), 真實 B)
