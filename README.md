@@ -79,7 +79,7 @@
 
 * VGG19：input 是 content image、style image、noise image / loss 是 noise image 與 content image、style image 的差異
 * StyleGAN：input 是 noise image / loss 是 G_loss 和 D_loss
-* CycleGAN：input 是 real image、fake image / loss 是 G_real_loss、G_fake_loss、D_real_loss、D_fake_loss、real_to_fake_to_real、fale_to_real_to_fake
+* CycleGAN：input 是 real image、fake image / loss 是 G_real_loss、G_fake_loss、D_real_loss、D_fake_loss、real_to_fake_to_real、fake_to_real_to_fake、real_identity、fake_identity
 
 ## VAE (Variational Autoencoder)
 ![image](https://github.com/user-attachments/assets/7801a9dc-1853-4df1-b482-10c9dd5b6251)
