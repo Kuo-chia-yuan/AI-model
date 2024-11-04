@@ -14,21 +14,21 @@
     - CSPDarknet53 (YOLOv4, YOLOv5)：
         - CNN + Residual Block + CSP
         - 輕量化 (減少參數量)、提高計算效率、提高精準度
-    ![alt text](DenseNet.png)  
-    ![alt text](CSP.png)
+        - ![alt text](DenseNet.png)
+        - ![alt text](CSP.png)
     - Focus Layer (YOLOv5)：
         - 降低解析度 (H x W)，增加深度 (Channel)
-        - 減少每次卷積時的計算量，同時保留空間資訊  
-    ![alt text](Focus_layer.png)
+        - 減少每次卷積時的計算量，同時保留空間資訊
+        - ![alt text](Focus_layer.png)
     - Efficient Layer Aggregation Network (YOLOv5)：
         - 多個 3 x 3 和 1 x 1 卷積組合
-        - 提升特徵學習能力、減少計算資源、減少特徵冗餘  
-    ![alt text](ELAN.png)  
-    ![alt text](compare.png)
+        - 提升特徵學習能力、減少計算資源、減少特徵冗餘
+        - ![alt text](ELAN.png)
+        - ![alt text](compare.png)
     - Feature Pyramid Network (YOLOv3)：
         - C0 - C3 是 CNN 不同層的 feature map，P1 - P3 是經過 Upsampling + Concatenation 得到的 feature map
-        - 高解析度 feature map 適合偵測小物體、低解析度 feature map 適合偵測大物體   
-    ![alt text](FPN.png)
+        - 高解析度 feature map 適合偵測小物體、低解析度 feature map 適合偵測大物體
+        - ![alt text](FPN.png)
 
 3. CNN 作用
     - 低層 feature map：提取 image 邊緣、顏色、紋理等基本信息
@@ -43,9 +43,11 @@
 6. 生成 Anchor Boxes (錨框) 和 bounding boxes (邊界框)
     1. 根據 K-means 學習出 3 種最適合的錨框尺寸，並為每個網格預設 3 個的 Anchor Boxes
     2. 計算 IoU：每個網格各自選出與真實框 IoU 最大的 Anchor Boxes，將其令為 "正樣本" (每格 0 - 3 個)，以學習如何調整錨框中心位置、寬度與高度
-    ![alt text](IoU.png)
-    3. 計算 confidence：判斷每個 Anchor box 內存在哪些類別的物體，選擇 confidence 最高的類別，當作該 Anchor box 預測的物體
-    4. 使用 NMS 過濾多餘 Anchor boxes：選擇同個類別中最高 confidence 的 Anchor boxes 當基準框，計算基準框與其他同類 Anchor box 的 IoU，並刪除 IoU 超過閾值的 Anchor box (代表與基準框重疊度高)，直到無法刪除為止
+
+
+       ![alt text](IoU.png)
+    4. 計算 confidence：判斷每個 Anchor box 內存在哪些類別的物體，選擇 confidence 最高的類別，當作該 Anchor box 預測的物體
+    5. 使用 NMS 過濾多餘 Anchor boxes：選擇同個類別中最高 confidence 的 Anchor boxes 當基準框，計算基準框與其他同類 Anchor box 的 IoU，並刪除 IoU 超過閾值的 Anchor box (代表與基準框重疊度高)，直到無法刪除為止
 
 ## key
 - 每個網格可以偵測 3 個 bounding box (需不同種類)，因此當同個網格出現 10 種類別的物體，bounding box 只能選擇 confidence 前三高的物體
