@@ -5,7 +5,7 @@
 ## embedding
 - 最終輸入向量 = Token Embedding + Position Embedding (兩者皆是 768 維向量)
 
-## embedding training
+## embedding pretrain
 - 直接使用 BERT pretrain 完成的嵌入層矩陣 (Token Embedding 及 Position Embedding)，來初始化 DistilBERT 的嵌入層矩陣
 
 ## encoder (DistilBERT 只有 6 層 encoder)
