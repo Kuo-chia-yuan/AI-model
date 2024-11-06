@@ -19,10 +19,17 @@
 最終輸入向量 = [-0.15, 0.23, ...] + [0.1, -0.2, ...] + [0.02, -0.03, ...]
 
 ## embedding training
+Token Embedding
 1. 查找詞彙表：貓 -> ID = 1234 (固定不變)
 2. 嵌入層矩陣：size = (token 數量, 768)，貓 -> 第 1234 行的 768 維向量 (隨機初始化)
 3. 更新嵌入層矩陣：隨著訓練不斷更新內容
 4. 最後得到穩定的嵌入層矩陣
+
+Segment Embedding
+嵌入層矩陣：size = (Segment 數量, 768)
+
+Position Embedding
+嵌入層矩陣：size = (最大序列長度, 768)
 
 ## encoder (BERT 有 12 或 24 層 encoder)
 ### Multi-Head Self-Attention  
