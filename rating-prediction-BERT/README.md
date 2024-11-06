@@ -40,7 +40,7 @@
 ## pretrain
 用大量無標記資料進行訓練
 - MLM (Masked Language Modeling)：隨機遮蔽 15% token，將其改成 [MASK] 向量，並輸出 [MASK] 向量預測正確答案
-- NSP (Next Sentence Prediction)：將 input 切成 AB 兩句，輸出 [CLS] 向量預測 True；找兩個不同 input 當作 AB 兩句，輸出 [CLS] 向量預測 False
+- NSP (Next Sentence Prediction)：用 Segment Embedding 找出相連的 AB 兩句，輸出 [CLS] 向量預測 True；找出不相連的 AB 兩句，輸出 [CLS] 向量預測 False
 
 ## fine tune
 有兩種形式  
