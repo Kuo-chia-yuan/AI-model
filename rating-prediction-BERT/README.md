@@ -26,10 +26,10 @@ Token Embedding
 4. 最後得到穩定的嵌入層矩陣
 
 Segment Embedding  
-嵌入層矩陣：size = (Segment 數量= 2, 768)
+- 嵌入層矩陣：size = (Segment 數量= 2, 768)
 
 Position Embedding  
-嵌入層矩陣：size = (最大序列長度 = 9, 768)
+- 嵌入層矩陣：size = (最大序列長度 = 9, 768)
 
 ## encoder (BERT 有 12 或 24 層 encoder)
 ### Multi-Head Self-Attention  
