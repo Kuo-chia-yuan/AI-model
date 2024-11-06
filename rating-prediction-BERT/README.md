@@ -20,15 +20,15 @@
 
 ## encoder (BERT 有 12 或 24 層 encoder)
 ### Multi-Head Self-Attention  
-- Query (查詢)：表示某個 input 對其他 input 的「查詢」需求
-- Key (鍵)：表示每個 input 的「特徵」
-- Value (值)：表示每個 input 的「信息內容」
+- Query (查詢)：表示某個 token 對其他 token 的「查詢」需求
+- Key (鍵)：表示每個 token 的「特徵」
+- Value (值)：表示每個 token 的「信息內容」
 ![alt text](self_attention_1.png)  
 ![alt text](self_attention_2.png)  
 1. 透過自己的 q 和其他三個 k 得出四個 α
 2. 四個 α 經過 softmax 得出四個 α'
 3. 四個 α' 和各自的 v 相乘，並全部相加，得出一個 b 向量
-4. 此 b 代表該 input 與整句的上下文關係，並會放入下一層 Feed-Forward Network，成為新的輸入向量
+4. 此 b 代表該 token 與整句的上下文關係，並會放入下一層 Feed-Forward Network，成為新的輸入向量
 
 ### Feed-Forward Network
 1. 接收 Multi-Head Self-Attention 的輸出向量，進行一次 Residual Connection (殘差連接)，加上原始輸入向量
@@ -37,10 +37,15 @@
 4. 再次進行 Residual Connection + Layer Normalization，成為輸出向量
 5. 此輸出向量會傳入下一層 encoder，成為新的輸入向量
 
-## output
-有兩種 output 形式  
-- 簡短輸出，如閱讀測驗答題、預測評分：[CLS] 向量
-- 逐詞輸出，如標記單字詞性：每個 input 最終向量
+## pretrain
+用大量無標記資料進行訓練
+- MLM (Masked Language Modeling)：隨機遮蔽 15% token，將其改成 [MASK] 向量，並輸出 [MASK] 向量預測正確答案
+- NSP (Next Sentence Prediction)：將 input 切成 AB 兩句，輸出 [CLS] 向量預測 True；找兩個不同 input 當作 AB 兩句，輸出 [CLS] 向量預測 False
+
+## fine tune
+有兩種形式  
+- 單一輸出，如閱讀測驗答題、預測評分：輸出 [CLS] 向量
+- 逐詞輸出，如標記單字詞性：輸出每個 token 最終向量
 
 ## key
 - self attention 改善 LSTM 記憶不足的問題
