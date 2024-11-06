@@ -25,10 +25,10 @@ Token Embedding
 3. 更新嵌入層矩陣：隨著訓練不斷更新內容
 4. 最後得到穩定的嵌入層矩陣
 
-Segment Embedding
+Segment Embedding  
 嵌入層矩陣：size = (Segment 數量, 768)
 
-Position Embedding
+Position Embedding  
 嵌入層矩陣：size = (最大序列長度, 768)
 
 ## encoder (BERT 有 12 或 24 層 encoder)
