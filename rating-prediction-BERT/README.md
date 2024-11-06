@@ -1,0 +1,47 @@
+# rating-prediction-BERT
+## input
+[CLS] + 第一段 + [SEP] + 第二段 + [SEP] + 第三段 + [SEP]
+
+舉例：[CLS] 貓追老鼠 [SEP] 老鼠跑了 [SEP]
+
+## embedding
+- Token Embedding：分割出每個詞 or 子詞 (包括 [CLS] 和 [SEP])-> 查詢詞彙表 -> 對應的 768 維向量
+- Segment Embedding：區分不同段落
+- Position Embedding：提供每個 token 的位置信息  
+
+最終輸入向量 = Token Embedding + Segment Embedding + Position Embedding (三個皆是 768 維向量)
+
+舉例：
+- Token Embedding：[CLS] 貓 追 老鼠 [SEP] 老鼠 跑 了 [SEP]，貓 對應到的向量 = [-0.15, 0.23, ...]
+- Segment Embedding：[CLS] 0 0 0 [SEP] 1 1 1 [SEP]，segment 0 對應到的向量 = [0.1, -0.2, ...]
+- Position Embedding：[CLS] 1 2 3 [SEP] 5 6 7 [SEP]，position 0 對應到的向量 = [0.02, -0.03, ...]
+
+最終輸入向量 = [-0.15, 0.23, ...] + [0.1, -0.2, ...] + [0.02, -0.03, ...]
+
+## encoder (BERT 有 12 或 24 層 encoder)
+### Multi-Head Self-Attention  
+- Query (查詢)：表示某個 input 對其他 input 的「查詢」需求
+- Key (鍵)：表示每個 input 的「特徵」
+- Value (值)：表示每個 input 的「信息內容」
+![alt text](self_attention_1.png)  
+![alt text](self_attention_2.png)  
+1. 透過自己的 q 和其他三個 k 得出四個 α
+2. 四個 α 經過 softmax 得出四個 α'
+3. 四個 α' 和各自的 v 相乘，並全部相加，得出一個 b 向量
+4. 此 b 代表該 input 與整句的上下文關係，並會放入下一層 Feed-Forward Network，成為新的輸入向量
+
+### Feed-Forward Network
+1. 接收 Multi-Head Self-Attention 的輸出向量，進行一次 Residual Connection (殘差連接)，加上原始輸入向量
+2. 進行 Layer Normalization，使模型穩定學習
+3. 傳入兩層 FC，之間有非線性激勵函數 (如 ReLU)
+4. 再次進行 Residual Connection + Layer Normalization，成為輸出向量
+5. 此輸出向量會傳入下一層 encoder，成為新的輸入向量
+
+## output
+有兩種 output 形式  
+- 簡短輸出，如閱讀測驗答題、預測評分：[CLS] 向量
+- 逐詞輸出，如標記單字詞性：每個 input 最終向量
+
+## key
+- self attention 改善 LSTM 記憶不足的問題
+- 其他模型通常只考慮由左到右的關係，而 BERT 為雙向，同時考慮前後文的關係
