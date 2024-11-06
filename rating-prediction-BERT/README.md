@@ -6,8 +6,8 @@
 
 ## embedding
 - Token Embedding：分割出每個詞 or 子詞 (包括 [CLS] 和 [SEP])-> 查詢詞彙表 (固定不變) -> 對應的 768 維向量
-- Segment Embedding：區分不同段落
-- Position Embedding：提供每個 token 的位置信息
+- Segment Embedding：區分不同段落 -> 對應的 768 維向量
+- Position Embedding：提供每個 token 的位置信息 -> 對應的 768 維向量
 
 最終輸入向量 = Token Embedding + Segment Embedding + Position Embedding (三個皆是 768 維向量)
 
