@@ -1,6 +1,6 @@
 # rating-prediction-BERT
 ## input
-[CLS] + 第一段 + [SEP] + 第二段 + [SEP] + 第三段 + [SEP]
+- [CLS] + 第一段 + [SEP] + 第二段 + [SEP] + 第三段 + [SEP]
 
 舉例：[CLS] 貓追老鼠 [SEP] 老鼠跑了 [SEP]
 
