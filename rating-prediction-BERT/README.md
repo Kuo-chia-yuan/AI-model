@@ -5,9 +5,9 @@
 舉例：[CLS] 貓追老鼠 [SEP] 老鼠跑了 [SEP]
 
 ## embedding
-- Token Embedding：分割出每個詞 or 子詞 (包括 [CLS] 和 [SEP])-> 查詢詞彙表 -> 對應的 768 維向量
+- Token Embedding：分割出每個詞 or 子詞 (包括 [CLS] 和 [SEP])-> 查詢詞彙表 (固定不變) -> 對應的 768 維向量
 - Segment Embedding：區分不同段落
-- Position Embedding：提供每個 token 的位置信息  
+- Position Embedding：提供每個 token 的位置信息
 
 最終輸入向量 = Token Embedding + Segment Embedding + Position Embedding (三個皆是 768 維向量)
 
@@ -17,6 +17,12 @@
 - Position Embedding：[CLS] 1 2 3 [SEP] 5 6 7 [SEP]，position 0 對應到的向量 = [0.02, -0.03, ...]
 
 最終輸入向量 = [-0.15, 0.23, ...] + [0.1, -0.2, ...] + [0.02, -0.03, ...]
+
+## embedding training
+1. 查找詞彙表：貓 -> ID = 1234 (固定不變)
+2. 嵌入層矩陣：size = (token 數量, 768)，貓 -> 第 1234 行的 768 維向量 (隨機初始化)
+3. 更新嵌入層矩陣：隨著訓練不斷更新內容
+4. 最後得到穩定的嵌入層矩陣
 
 ## encoder (BERT 有 12 或 24 層 encoder)
 ### Multi-Head Self-Attention  
