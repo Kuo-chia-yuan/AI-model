@@ -18,12 +18,12 @@
 - encoder 最終輸出是所有 token 向量 (token 數量, 768)，並傳入 decoder 當作輸入，此時會特別標記 [START] 提醒 decoder，這是第一個輸入
 
 ## decoder
-- 第一個輸入會標記 [START]，最後一個輸出會標記 [BOS]
+- 第一個輸入會標記 [START]，最後一個輸出會標記 [BOS]  
 ![alt text](decoder.png)
 ### Masked Multi-Head Self-Attention
 - 只能捕捉之前生成的 token 的上下文關係，無法看到未來的 token
 
-### Encoder-Decoder Attention (Cross Attention)
+### Encoder-Decoder Attention (Cross Attention)  
 ![alt text](Cross_Attention.png)
 1. decoder token Q 與 encoder token K 內積
 2. 再與 encoder token V 相乘，並全部相加
