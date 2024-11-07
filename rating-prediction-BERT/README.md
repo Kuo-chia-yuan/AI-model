@@ -33,9 +33,9 @@ Position Embedding
 
 ## encoder (BERT 有 12 或 24 層 encoder)
 ### Multi-Head Self-Attention  
-- Query (查詢)：表示某個 token 對其他 token 的「查詢」需求
-- Key (鍵)：表示每個 token 的「特徵」
-- Value (值)：表示每個 token 的「信息內容」
+- Query (查詢)：表示某個 token 對其他 token 的「查詢」需求，Q = W_Q * 768 維向量
+- Key (鍵)：表示每個 token 的「特徵」，K = W_K * 768 維向量
+- Value (值)：表示每個 token 的「信息內容」，V = W_V * 768 維向量
 ![alt text](self_attention_1.png)  
 ![alt text](self_attention_2.png)  
 1. 透過自己的 q 和其他三個 k 得出四個 α
