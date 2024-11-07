@@ -2,7 +2,7 @@
 ## input
 - content image：244 x 244 x 3
 - style image：244 x 244 x 3
-- generate image：244 x 244 x 3 (可以是 random image 或 content image)
+- generate image：244 x 244 x 3 (初始是 random image 或 content image)
 
 ## output
 - generate image：244 x 244 x 3
