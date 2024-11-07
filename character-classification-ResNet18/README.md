@@ -13,7 +13,7 @@
 - 50 種類別的各自概率，最大為 1，其餘為 0
 
 ## architecture
-![alt text](architecture.png)
+![image](https://github.com/user-attachments/assets/e32b53e4-f868-4e28-8481-698490da43ea)
 - 殘差塊 (residual block)：(CNN + Batch Normalization + ReLU) + (CNN + Batch Normalization)
 
 ## loss
