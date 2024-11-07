@@ -17,8 +17,9 @@
 - 殘差塊 (residual block)：(CNN + Batch Normalization + ReLU) + (CNN + Batch Normalization)
 
 ## loss
-- Cross-Entropy Loss：適合分類任務  
+- Cross-Entropy Loss (CNN)  
 ![alt text](loss.png)
+- softmax (最後一層輸出)
 
 ## key
 - 殘差 (residual) = x + f(x-1)
