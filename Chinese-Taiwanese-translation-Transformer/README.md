@@ -7,6 +7,9 @@
 - Positional Encoding：將每個 token 的位置應設到對應的 768 維向量  
 (共兩個嵌入層矩陣，無 Segment Embedding)
 
+## embedding pretrain
+- 與 BERT 方式相同
+
 ## encoder
 與 BERT 相同之處
 - 12 或 24 層 encoder
