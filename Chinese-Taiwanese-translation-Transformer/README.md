@@ -1,6 +1,6 @@
 # Chinese-Taiwanese-translation-Transformer
 ## input
-將多句輸入結合成一句，無需 [CLS] 或 [SEP]
+- 將多句輸入結合成一句，無需 [CLS] 或 [SEP]
 
 ## embedding
 - Token Embedding：將每個 token 映射到對應的 768 維向量
