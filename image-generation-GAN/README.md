@@ -12,3 +12,6 @@
 - output：(batch_size, 1) 的向量，介於 [0, 1]，用於判斷真偽
 - architecture：4 層 linear、leakyReLU + 最後一層 Sigmoid
 - loss：BCELoss(D(real_imgs), 1) + BCELoss(D(generated_imgs), 0)
+
+## demo
+![alt text](comic-characters-face/epoch_10.png)
