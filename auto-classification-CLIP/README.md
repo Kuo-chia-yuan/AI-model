@@ -38,14 +38,14 @@
 4. 將類別名稱向量與圖片向量分別計算相似度，並取分數最高的當作預測結果
 
 ## demo
-![alt text](demo\3656104088_a0d1642fa9.jpg)  
-![alt text](demo\image-1.png)  
+![alt text](demo/3656104088_a0d1642fa9.jpg)  
+![alt text](demo/image-1.png)  
 
-![alt text](demo\3286620180_4b00e93e8e.jpg)  
-![alt text](demo\image-2.png)
+![alt text](demo/3286620180_4b00e93e8e.jpg)  
+![alt text](demo/image-2.png)
 
-![alt text](demo\3421129418_088af794f7.jpg)  
-![alt text](demo\image-3.png)
+![alt text](demo/3421129418_088af794f7.jpg)  
+![alt text](demo/image-3.png)
 
-![alt text](demo\108899015_bf36131a57.jpg)  
-![alt text](demo\image-4.png)
+![alt text](demo/108899015_bf36131a57.jpg)  
+![alt text](demo/image-4.png)
