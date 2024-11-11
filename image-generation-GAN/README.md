@@ -14,8 +14,8 @@
 - loss：BCELoss(D(real_imgs), 1) + BCELoss(D(generated_imgs), 0)
 
 ## demo
-- comic characters  
+- comic characters (epoch = 10)  
 ![alt text](comic-characters-demo/epoch_10.png)
 
-- real human face
-![alt text](real-face-demo/epoch_10.png)
+- real human face (epoch = 300)  
+![alt text](real-face-demo/epoch_300.png)
