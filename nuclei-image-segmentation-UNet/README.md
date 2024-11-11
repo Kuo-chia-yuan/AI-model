@@ -39,3 +39,9 @@
     - kernel size = 3 x 3
     - padding = 1
     - stride = 1
+
+## demo
+- image  
+![alt text](demo_images/3bf7873f11823f4b64422f49c8248dd95c0d01f9ae9075ae3d233bbb21a3d875.png)  
+- mask  
+![alt text](demo_masks/3bf7873f11823f4b64422f49c8248dd95c0d01f9ae9075ae3d233bbb21a3d875_mask.png)    
