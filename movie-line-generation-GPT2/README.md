@@ -27,3 +27,6 @@
 
 ## fine tune
 - 與 pretrain 方式相同
+
+## demo 
+![image](https://github.com/user-attachments/assets/552f4ad8-792e-4803-a662-310e712d5a91)
