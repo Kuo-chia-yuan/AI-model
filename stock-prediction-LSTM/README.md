@@ -41,3 +41,7 @@
     - 輸出每個 step 的 h_t：例如，輸入 "我好帥"，翻譯成 "I am handsome"
 
 - 整個模型會共用一顆 LSTM 單元，只是 step 會一直更新
+
+## demo
+- 預測 2023-2024 年 "元大台灣50" 股價走勢  
+![alt text](prediction.png)
