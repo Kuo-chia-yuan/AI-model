@@ -55,3 +55,6 @@
         - 將一張 image 分割出多種網格 (52 x 52、26 x 26、13 x 13)，各自經過 CNN 提取 feature map、生成 Anchor boxes 和 bounding boxes，最後將所有 bounding boxes 顯示在同張 image
 - Auto Anchor：從 training data 中提取所有錨框，用 K-means 計算出 K 個最具代表性的錨框尺寸，使其盡量完整覆蓋不同大小的物體
 - Anchor free：直接找出物體的中心點，並估計出 Anchor Boxes 長寬
+
+## demo
+![alt text](demo/val_batch2_pred.jpg)
