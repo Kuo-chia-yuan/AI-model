@@ -34,3 +34,11 @@
     for param in vgg.parameters():
         param.requires_grad = False
     ```
+
+## demo
+- content image  
+![alt text](content_image.jpg)
+- style image  
+![alt text](style_image.jpg)  
+- generated image  
+![alt text](generated_image.jpg)
