@@ -31,6 +31,7 @@
 ## key
 - Embedding Space 中的離散向量都是參數，會根據 loss 更新
 - "離散向量" 優點：能提升壓縮效果、提高生成穩定性、減少模糊問題
+- "連續向量" 優點：可插植性高、可生成多樣化樣本，可解釋性高
 - VQ-VAE vs VAE：   
     - VQ-VAE：encoder output 會輸出連續向量，透過 Embedding Space 取得新的離散向量，例如，修復模糊影像  
     - VAE：encoder output 會輸出 "均值" 和 "標準差"，計算出符合高斯分布的新連續向量，例如，月亮從上弦月變化至下弦月的過程  
