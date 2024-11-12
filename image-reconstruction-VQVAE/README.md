@@ -36,6 +36,7 @@
     - VQ-VAE：encoder output 會輸出連續向量，透過 Embedding Space 取得新的離散向量，例如，修復模糊影像  
     - VAE：encoder output 會輸出 "均值" 和 "標準差"，計算出符合高斯分布的新連續向量，例如，月亮從上弦月變化至下弦月的過程  
 ![alt text](VAE.png)
+- Auto Encoder：無 Embedding Space，即 encoder output = decoder input
 
 ## demo
 - 3 層 CNN
