@@ -40,6 +40,6 @@ output：一張 image
 
 ![image](https://github.com/user-attachments/assets/e080c1ea-1375-4fa7-b97f-e0b4df8b53b4)  
 
-- VQ-VAE：將 image 輸入至 CNN 提取 feature map，並根據 embedding space 將連續特徵轉換為離散 token
+- VQ-VAE：將 image 輸入至 CNN 提取 feature map，並根據 embedding space 將連續特徵轉換為相似度最高的離散 token
 - GPT：將 token 通過 embedding 轉成向量，並逐個輸出向量
 - VQ-VAE：將每個向量逐個 up sampling 成一小塊 image，最終合併成完整 image
