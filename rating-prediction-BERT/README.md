@@ -4,6 +4,9 @@
 
 舉例：[CLS] 貓追老鼠 [SEP] 老鼠跑了 [SEP]
 
+## tokenizer
+- 將 input 單詞轉換成對應的 token，並將這些 token 映射到對應的 id (過程會進行填充或截斷)
+
 ## embedding
 - Token Embedding：分割出每個詞 or 子詞 (包括 [CLS] 和 [SEP])-> 查詢詞彙表 (固定不變) -> 對應的 768 維向量
 - Segment Embedding：區分不同段落 -> 對應的 768 維向量
