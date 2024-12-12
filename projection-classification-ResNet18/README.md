@@ -1,7 +1,7 @@
 # projection-classification-ResNet18
 ***註：此為與某公司合作之 Matlab case***
 ## target
-- 利用 ai 實作影像分類，並與傳統方法進行比較
+- 主要負責利用 ai 實作影像分類，並與傳統方法進行比較
 ## input
 - 由優至劣，分為 A、B、C、D、E 等級
 - 每個等級各 12 萬張 projection data
