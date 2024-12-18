@@ -15,8 +15,9 @@
 - Initial LR = 0.0005
 
 ## result
-![result](https://github.com/user-attachments/assets/c87e6161-7b85-40df-9919-ee4ab334effc)
-- 訓練時長：2 天
-- 訓練 epoch：1.2
-- acc：training data 90 % / validation data 80 %
-- loss：0.3
+![result1](https://github.com/user-attachments/assets/92fb836f-f9bd-488e-85b2-6b32492f4618)
+
+- 訓練時長：1911 hr
+- 訓練 epoch：10
+- validation acc：96.37
+- validation loss：0.1
