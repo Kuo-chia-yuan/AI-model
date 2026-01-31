@@ -17,7 +17,8 @@
 ## result
 ![result1](https://github.com/user-attachments/assets/92fb836f-f9bd-488e-85b2-6b32492f4618)
 
-- 訓練時長：1911 hr
+- 訓練時長：1911 min
 - 訓練 epoch：10
 - validation acc：96.37
 - validation loss：0.1
+
