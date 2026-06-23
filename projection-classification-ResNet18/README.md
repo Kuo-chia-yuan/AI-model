@@ -1,5 +1,5 @@
 # projection-classification-ResNet18
-***註：此為與某公司合作之 Matlab case***
+***註：此為與某公司合作專案***
 ## target
 - 利用 ai 實作影像分類，並與傳統方法進行比較
 ## input
