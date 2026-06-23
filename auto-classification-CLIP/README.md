@@ -37,15 +37,7 @@
 3. 將一張 image，丟入圖片 encoder，得到圖片向量
 4. 將類別名稱向量與圖片向量分別計算相似度，並取分數最高的當作預測結果
 
-## demo
-![alt text](demo/3656104088_a0d1642fa9.jpg)  
-![alt text](demo/image-1.png)  
-
-![alt text](demo/3286620180_4b00e93e8e.jpg)  
-![alt text](demo/image-2.png)
-
-![alt text](demo/3421129418_088af794f7.jpg)  
-![alt text](demo/image-3.png)
-
-![alt text](demo/108899015_bf36131a57.jpg)  
-![alt text](demo/image-4.png)
+## Demo
+<img width="1307" height="590" alt="image" src="https://github.com/user-attachments/assets/2639dae7-7dea-440f-bdbf-ef64d876e30e" />
+<img width="1490" height="590" alt="image" src="https://github.com/user-attachments/assets/d83b0158-b550-4441-84db-6d1f37de34bb" />
+<img width="1489" height="590" alt="image" src="https://github.com/user-attachments/assets/a553613e-7190-4034-8087-32801bd76462" />
