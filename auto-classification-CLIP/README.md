@@ -38,6 +38,7 @@
 4. 將類別名稱向量與圖片向量分別計算相似度，並取分數最高的當作預測結果
 
 ## Demo
-<img width="1307" height="590" alt="image" src="https://github.com/user-attachments/assets/2639dae7-7dea-440f-bdbf-ef64d876e30e" />
+<img width="1307" height="590" alt="image" src="https://github.com/user-attachments/assets/318f29f4-ea23-4e3f-9df9-6602631381fd" />
 <img width="1490" height="590" alt="image" src="https://github.com/user-attachments/assets/d83b0158-b550-4441-84db-6d1f37de34bb" />
-<img width="1489" height="590" alt="image" src="https://github.com/user-attachments/assets/a553613e-7190-4034-8087-32801bd76462" />
+<img width="1489" height="590" alt="image" src="https://github.com/user-attachments/assets/1927e7c1-2621-41f4-846d-a050c68258bc" />
+<img width="1489" height="590" alt="image" src="https://github.com/user-attachments/assets/465ecfa1-217e-46b1-886b-4c699d56787b" />
